@@ -52,6 +52,8 @@ body {
   position: relative;
   transition: 0.5s;
 }
+
+/* Button Animation */
 .learn-more-button::after {
   content: "»";
   position: absolute;
@@ -79,6 +81,8 @@ body {
   padding: 2% 2% 0% 2%;
   overflow: hidden;
 }
+
+/* Images Animation */
 .top-banner-right img {
   width: 100%;
   transition: 0.7s all ease-in-out;
@@ -126,10 +130,10 @@ main {
   transition: 0.5s;
   cursor: pointer;
 }
-.nav-2 {
+#nav-2 {
   margin: 5% 0;
 }
-.nav-3 {
+#nav-1 {
   background-color: #dd0000;
   font-size: 27px;
   color: whitesmoke;
@@ -153,11 +157,19 @@ main {
   box-shadow: 5px 5px 15px rgba(98, 97, 97, 0.379);
   transition: 0.5s;
 }
-
 .blogs img {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 3%;
+}
+
+/* Blog Images Animation  */
+#blog-images img {
+  width: 100%;
+  transition: 0.7s all ease-in-out;
+}
+#blog-images img:hover {
+  transform: scale(1.05);
 }
 .blogs .transfer-button {
   background-color: #dd0000;
@@ -288,6 +300,7 @@ footer {
     font-size: 20px;
     line-height: 30px;
     border: 1px solid #e8e8e8;
+    border: none;
     border-radius: 10px;
   }
   .blogs {
