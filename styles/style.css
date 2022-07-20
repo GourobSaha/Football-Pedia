@@ -318,6 +318,10 @@ footer {
   .important-links {
     flex-direction: column;
   }
+  .social-media {
+    margin-top: 0px;
+    padding: 15px;
+  }
 }
 
 /* Responsive for Tablet Devices  */
