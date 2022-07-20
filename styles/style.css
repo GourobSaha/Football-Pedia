@@ -298,3 +298,68 @@ footer {
     flex-direction: column;
   }
 }
+
+/* Responsive for Tablet Devices  */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .top-banner-left h1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .top-banner-left p {
+    font-size: 14px;
+    line-height: 24px;
+    white-space: nowrap;
+    margin: 10px auto;
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid #0d1426;
+  }
+  .top-banner-left {
+    padding: 10%;
+    text-align: center;
+  }
+  .learn-more-button {
+    width: 180px;
+    height: 50px;
+  }
+  .top-banner-right img {
+    width: 90%;
+  }
+  .match-info {
+    flex-direction: column;
+  }
+  .navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 0;
+    border-radius: 15px;
+    margin: 0px auto 20px auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navigation button {
+    width: 200px;
+    height: 68px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+  }
+  .blogs {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1%;
+  }
+  .blog-9 {
+    display: none;
+  }
+  .view-more-button {
+    display: block;
+  }
+}
