@@ -18,7 +18,8 @@ body {
 .top-banner-left {
   color: whitesmoke;
   margin: 0 auto;
-  padding-left: 10%;
+  padding: 10% 0% 10% 10%;
+  text-align: center;
 }
 .top-banner-left h1 {
   font-weight: 700;
@@ -320,7 +321,7 @@ footer {
 }
 
 /* Responsive for Tablet Devices  */
-@media only screen and (min-width: 689px) and (max-width: 992px) {
+@media only screen and (min-width: 689px) and (max-width: 1024px) {
   .top-banner-left h1 {
     font-size: 30px;
     line-height: 50px;

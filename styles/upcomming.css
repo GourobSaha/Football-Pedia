@@ -1,9 +1,9 @@
 /* Flag Style  */
 .flag {
   display: flex;
-  padding-left: 20px;
-  padding-right: 20px;
-  gap: 20px;
+  padding: 2%;
+  align-items: center;
+  gap: 2%;
 }
 .flag img {
   width: 100%;
